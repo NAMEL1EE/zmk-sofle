@@ -57,14 +57,14 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - layer1
-  - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
+  - '&BL4'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - layer2
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '5', h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - INS
   layer1:
   - {t: '`', s: '~'}
   - F1
